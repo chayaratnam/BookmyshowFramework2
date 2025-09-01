@@ -46,18 +46,25 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- WebDriver Manager (optional, for automatic drivers) -->
+        <!-- WebDriver Manager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
             <version>5.5.0</version>
         </dependency>
 
-        <!-- Apache POI (optional, for Excel data-driven) -->
+        <!-- Apache POI (Excel) -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>5.2.3</version>
+        </dependency>
+
+        <!-- Apache Commons IO (for screenshots) -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.13.0</version>
         </dependency>
     </dependencies>
 
